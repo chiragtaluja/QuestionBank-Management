@@ -1,0 +1,74 @@
+/* General Reset */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+   
+}
+
+/* Container Styling */
+.container {
+   
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+header h1 {
+    text-align: center;
+    font-size: 36px;
+   
+    margin-bottom: 20px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 10px;
+    border-left: 4px solid #4a98f7;
+    padding-left: 10px;
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+/* Features List */
+.features ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.features ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
